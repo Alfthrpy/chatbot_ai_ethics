@@ -9,7 +9,7 @@ st.markdown("""
 
 with st.sidebar:
     st.header("🎓 Panel Kontrol")
-    api_key = "AIzaSyD7Fht7mQvV7JREt4UD8j0K4DhuVM_ClSk"
+    api_key = st.secrets["GEMINI_API_KEY"]
     
     st.divider()
     
